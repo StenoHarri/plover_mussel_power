@@ -51,7 +51,7 @@ ORTHOGRAPHY_WORDLIST = None
 # each system action binds to the machine key of the same name.
 KEYMAPS = {
     "Controller": {key: key for key in KEYS},
-    "Morel": {key: key for key in KEYS}
+    "Touchpad": {key: key for key in KEYS},
 }
 
 DICTIONARIES_ROOT = "asset:plover:assets"
