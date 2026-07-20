@@ -21,7 +21,7 @@ KEYS = (
     "1-", "2-", "3-", "4-",
     "5-", "6-", "7-", "8-",
     "l-", "r-", "L-", "R-",
-    "S-" # for stick clicks
+    "S-", # for stick clicks
 
     "A-", "O-", "-E", "-U",
 
@@ -51,6 +51,7 @@ ORTHOGRAPHY_WORDLIST = None
 # each system action binds to the machine key of the same name.
 KEYMAPS = {
     "Controller": {key: key for key in KEYS},
+    "Touchpad": {key: key for key in KEYS},
 }
 
 DICTIONARIES_ROOT = "asset:plover:assets"
